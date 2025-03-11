@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Movies.Application",
+    "\\Movies.Application\\Commands",
+    "\\Movies.Application\\Commands\\Movies",
+    "\\Movies.Application\\Commands\\Movies\\DeleteMovies",
+    "\\Movies.Contracts",
+    "\\Movies.Contracts\\Requests",
+    "\\Movies.Contracts\\Requests\\Movies",
+    "\\Movies.Presentation",
+    "\\Movies.Presentation\\Modules"
+  ],
+  "SelectedNode": "\\Movies.Application\\Queries\\Movies\\GetMoviesById\\GetMoviesByIdQueryHandler.cs",
+  "PreviewInSolutionExplorer": false
+}
