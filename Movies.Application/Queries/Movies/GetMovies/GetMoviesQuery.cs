@@ -1,5 +1,5 @@
 ﻿using MediatR;
-
-namespace Movies.Application.Querties.Movies.GetMovies;
+using Movies.Contracts.Responses;
+namespace Movies.Application.Queries.Movies.GetMovies;
 public record GetMoviesQuery () : IRequest<GetMoviesResponse>;
 

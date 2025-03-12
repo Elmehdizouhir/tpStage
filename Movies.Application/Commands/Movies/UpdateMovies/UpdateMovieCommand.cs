@@ -1,5 +1,5 @@
 ﻿using System;
 using MediatR;
-namespace Movies.Application.Commands.Movies.UpdateMovies;
-public record UpdateMoviesCommand(int id,string Title, string Description, string Category ) : IRequest<Uint>;
+
+public record UpdateMovieCommand(int Id,string Title, string Description, string Category ) : IRequest<Unit>;
 

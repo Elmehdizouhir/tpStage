@@ -1,21 +1,20 @@
 ﻿using System;
 using MediatR;
-using Movies.Application.Interfaces; // تأكد من الاستيراد الصحيح
 using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
-
+using Movies.Infrastructure;
 namespace Movies.Application.Commands.Movies.UpdateMovies
 {
-    public class UpdateMoviesCommand : IRequest<Unit>
+    public class UpdateMovieCommand : IRequest<Unit>
     {
         public int Id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public string Category { get; set; }
+        public required string  Title { get; set; } 
+        public required string Description { get; set; } 
+        public required string Category { get; set; } 
     }
 
-    public class UpdateMoviesCommandHandler : IRequestHandler<UpdateMoviesCommand, Unit>
+    public class UpdateMoviesCommandHandler : IRequestHandler<UpdateMovieCommand, Unit>
     {
         private readonly MoviesDbContext _moviesDbContext;
 
@@ -24,7 +23,7 @@ namespace Movies.Application.Commands.Movies.UpdateMovies
             _moviesDbContext = moviesDbContext;
         }
 
-        public async Task<Unit> Handle(UpdateMoviesCommand request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(UpdateMovieCommand request, CancellationToken cancellationToken)
         {
             var moviesToUpdate = await _moviesDbContext.Movies
                 .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);

@@ -2,15 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\Movies.Application",
-    "\\Movies.Application\\Commands",
-    "\\Movies.Application\\Commands\\Movies",
-    "\\Movies.Application\\Commands\\Movies\\DeleteMovies",
+    "\\Movies.Application\\Queries",
+    "\\Movies.Application\\Queries\\Movies",
+    "\\Movies.Application\\Queries\\Movies\\GetMovies",
+    "\\Movies.Application\\Queries\\Movies\\GetMoviesById",
     "\\Movies.Contracts",
     "\\Movies.Contracts\\Requests",
     "\\Movies.Contracts\\Requests\\Movies",
     "\\Movies.Presentation",
     "\\Movies.Presentation\\Modules"
   ],
-  "SelectedNode": "\\Movies.Application\\Queries\\Movies\\GetMoviesById\\GetMoviesByIdQueryHandler.cs",
+  "SelectedNode": "\\Movies.Application\\Movies.Application.csproj",
   "PreviewInSolutionExplorer": false
 }

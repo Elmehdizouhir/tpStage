@@ -1,12 +1,13 @@
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.deps.json
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.runtimeconfig.json
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.dll
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.pdb
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.csproj.AssemblyReference.cache
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.AssemblyInfoInputs.cache
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.AssemblyInfo.cs
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.csproj.CoreCompileInputs.cache
-C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.deps.json
-C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.runtimeconfig.json
-C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.dll
-C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.pdb
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.sourcelink.json
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.dll
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\obj\Debug\net8.0\refint\Movies.Contracts.dll
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.pdb

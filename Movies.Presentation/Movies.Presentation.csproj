@@ -10,9 +10,6 @@
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.1" />
-    <ProjectReference Include="..\Movies.Domain\Movies.Domain.csproj" />
-    <ProjectReference Include="..\Movies.Application\Movies.Application.csproj" />
-    <ProjectReference Include="..\Movies.Infrastructure\Movies.Infrastructure.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.1">
@@ -20,6 +17,12 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    
+    <ProjectReference Include="..\Movies.Application\Movies.Application.csproj" />
+    <ProjectReference Include="..\Movies.Infrastructure\Movies.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

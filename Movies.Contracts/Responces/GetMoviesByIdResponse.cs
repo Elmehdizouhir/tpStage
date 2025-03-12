@@ -4,4 +4,4 @@
 
 namespace Movies.Contracts.Responses;
 
-public record GetMoviesByIdResponse (MoviesDto MoviesDto);
+public record GetMoviesByIdResponse (MoviesDto moviesDto);

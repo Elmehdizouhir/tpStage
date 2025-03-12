@@ -3,7 +3,7 @@ using Movies.Domain.Entities;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Movies.Infrastructure
+namespace Movies.Domain.Interfaces
 {
     public interface IMoviesDbContext
     {

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMoviesById\\GetLoviesByIdQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movies.Application\\Queries\\Movies\\GetMoviesById\\GetLoviesByIdQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Movies.Application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movies.Application\\Movies.Application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Presentation\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movies.Presentation\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMoviesById\\GetMoviesByIdQueryHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQueryHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQueryHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Mappings\\MappingConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movies.Application\\Commands\\Movies\\DeleteMovies\\DeleteMovieCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Presentation\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movies.Presentation\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Presentation\\Modules\\MoviesModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movies.Presentation\\Modules\\MoviesModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movies.Application\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Movies.Application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movies.Application\\Movies.Application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Infrastructure\\MoviesDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,37 +102,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetLoviesByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMoviesById\\GetLoviesByIdQuery.cs",
-              "RelativeDocumentMoniker": "Movies.Application\\Queries\\Movies\\GetMoviesById\\GetLoviesByIdQuery.cs",
-              "ToolTip": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMoviesById\\GetLoviesByIdQuery.cs",
-              "RelativeToolTip": "Movies.Application\\Queries\\Movies\\GetMoviesById\\GetLoviesByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:27:26.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetMoviesQuery.cs",
-              "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQuery.cs",
-              "RelativeDocumentMoniker": "Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQuery.cs",
-              "ToolTip": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQuery.cs",
-              "RelativeToolTip": "Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:39:46.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GetMoviesByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMoviesById\\GetMoviesByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Movies.Application\\Queries\\Movies\\GetMoviesById\\GetMoviesByIdQueryHandler.cs",
@@ -153,19 +119,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetMoviesQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQueryHandler.cs",
-              "RelativeDocumentMoniker": "Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQueryHandler.cs",
-              "ToolTip": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQueryHandler.cs",
-              "RelativeToolTip": "Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T13:54:32.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MappingConfig.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Mappings\\MappingConfig.cs",
@@ -174,8 +127,7 @@
               "RelativeToolTip": "Movies.Application\\Mappings\\MappingConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T13:49:23.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T13:49:23.255Z"
             },
             {
               "$type": "Document",
@@ -187,8 +139,45 @@
               "RelativeToolTip": "Movies.Application\\Commands\\Movies\\CeateMovies\\CreateMovieCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:09:21.733Z",
+              "WhenOpened": "2025-03-11T10:09:21.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Movies.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Presentation\\Program.cs",
+              "RelativeToolTip": "Movies.Presentation\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T13:47:45.796Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Movies.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Movies.Application.csproj",
+              "RelativeDocumentMoniker": "Movies.Application\\Movies.Application.csproj",
+              "ToolTip": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Movies.Application.csproj*",
+              "RelativeToolTip": "Movies.Application\\Movies.Application.csproj*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T09:20:31.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetMoviesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQueryHandler.cs",
+              "RelativeDocumentMoniker": "Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQueryHandler.cs",
+              "RelativeToolTip": "Movies.Application\\Queries\\Movies\\GetMovies\\GetMoviesQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T13:54:32.978Z"
             },
             {
               "$type": "Document",
@@ -200,8 +189,7 @@
               "RelativeToolTip": "Movies.Application\\Commands\\Movies\\CeateMovies\\CreateMovieCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:01:05.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T10:01:05.103Z"
             },
             {
               "$type": "Document",
@@ -213,8 +201,7 @@
               "RelativeToolTip": "Movies.Contracts\\Requests\\Movies\\CreateMovieRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:32:43.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:32:43.824Z"
             },
             {
               "$type": "Document",
@@ -226,8 +213,7 @@
               "RelativeToolTip": "Movies.Contracts\\Requests\\Movies\\UpdateMovieRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:35:42.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:35:42.535Z"
             },
             {
               "$type": "Document",
@@ -239,8 +225,7 @@
               "RelativeToolTip": "Movies.Application\\Commands\\Movies\\UpdateMovies\\UpdateMovieCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:27:41.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T10:27:41.104Z"
             },
             {
               "$type": "Document",
@@ -252,25 +237,11 @@
               "RelativeToolTip": "Movies.Application\\Commands\\Movies\\DeleteMovies\\DeleteMovieCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:58:39.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:58:39.81Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "Movies.Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Presentation\\Program.cs",
-              "RelativeToolTip": "Movies.Presentation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T13:47:45.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "MoviesModule.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Presentation\\Modules\\MoviesModule.cs",
               "RelativeDocumentMoniker": "Movies.Presentation\\Modules\\MoviesModule.cs",
@@ -278,12 +249,11 @@
               "RelativeToolTip": "Movies.Presentation\\Modules\\MoviesModule.cs",
               "ViewState": "AgIAABYAAAAAMzMzMzMrwBwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:07:16.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:07:16.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "UpdateMovieCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Commands\\Movies\\UpdateMovies\\UpdateMovieCommandHandler.cs",
               "RelativeDocumentMoniker": "Movies.Application\\Commands\\Movies\\UpdateMovies\\UpdateMovieCommandHandler.cs",
@@ -291,12 +261,11 @@
               "RelativeToolTip": "Movies.Application\\Commands\\Movies\\UpdateMovies\\UpdateMovieCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:33:27.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T10:33:27.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "DeleteMovieCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Commands\\Movies\\DeleteMovies\\DeleteMovieCommandHandler.cs",
               "RelativeDocumentMoniker": "Movies.Application\\Commands\\Movies\\DeleteMovies\\DeleteMovieCommandHandler.cs",
@@ -304,12 +273,11 @@
               "RelativeToolTip": "Movies.Application\\Commands\\Movies\\DeleteMovies\\DeleteMovieCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:55:26.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T10:55:26.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "GetMoviesByIdResponse.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Contracts\\Responces\\GetMoviesByIdResponse.cs",
               "RelativeDocumentMoniker": "Movies.Contracts\\Responces\\GetMoviesByIdResponse.cs",
@@ -317,25 +285,11 @@
               "RelativeToolTip": "Movies.Contracts\\Responces\\GetMoviesByIdResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:29:32.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T09:29:32.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Movies.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Movies.Application.csproj",
-              "RelativeDocumentMoniker": "Movies.Application\\Movies.Application.csproj",
-              "ToolTip": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\Movies.Application.csproj",
-              "RelativeToolTip": "Movies.Application\\Movies.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-11T09:20:31.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Movies.Application\\DependencyInjection.cs",
@@ -343,12 +297,11 @@
               "RelativeToolTip": "Movies.Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T15:09:39.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T15:09:39.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "MoviesDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Infrastructure\\MoviesDbContext.cs",
               "RelativeDocumentMoniker": "Movies.Infrastructure\\MoviesDbContext.cs",
@@ -356,12 +309,11 @@
               "RelativeToolTip": "Movies.Infrastructure\\MoviesDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:24:13.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T14:24:13.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "GetMoviesResponse.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Contracts\\Responces\\GetMoviesResponse.cs",
               "RelativeDocumentMoniker": "Movies.Contracts\\Responces\\GetMoviesResponse.cs",
@@ -369,12 +321,11 @@
               "RelativeToolTip": "Movies.Contracts\\Responces\\GetMoviesResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:47:41.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T14:47:41.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "MoviesDto.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Contracts\\Dtos\\MoviesDto.cs",
               "RelativeDocumentMoniker": "Movies.Contracts\\Dtos\\MoviesDto.cs",
@@ -382,12 +333,11 @@
               "RelativeToolTip": "Movies.Contracts\\Dtos\\MoviesDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:49:14.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T14:49:14.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Domain\\Entities\\Movie.cs",
               "RelativeDocumentMoniker": "Movies.Domain\\Entities\\Movie.cs",
@@ -395,12 +345,11 @@
               "RelativeToolTip": "Movies.Domain\\Entities\\Movie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:27:43.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T14:27:43.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Domain\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Movies.Domain\\Entities\\BaseEntity.cs",
@@ -408,12 +357,11 @@
               "RelativeToolTip": "Movies.Domain\\Entities\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:27:54.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T14:27:54.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "Movies.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Domain\\Movies.Domain.csproj",
               "RelativeDocumentMoniker": "Movies.Domain\\Movies.Domain.csproj",
@@ -421,12 +369,11 @@
               "RelativeToolTip": "Movies.Domain\\Movies.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-10T13:47:57.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T13:47:57.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Presentation\\Class1.cs",
               "RelativeDocumentMoniker": "Movies.Presentation\\Class1.cs",
@@ -434,8 +381,7 @@
               "RelativeToolTip": "Movies.Presentation\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T13:47:16.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T13:47:16.936Z"
             }
           ]
         }

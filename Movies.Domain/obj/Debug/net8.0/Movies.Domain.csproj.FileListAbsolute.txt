@@ -7,6 +7,7 @@ C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Domain\obj\Debug\net8.0\Mov
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Domain\obj\Debug\net8.0\Movies.Domain.AssemblyInfoInputs.cache
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Domain\obj\Debug\net8.0\Movies.Domain.AssemblyInfo.cs
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Domain\obj\Debug\net8.0\Movies.Domain.csproj.CoreCompileInputs.cache
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Domain\obj\Debug\net8.0\Movies.Domain.sourcelink.json
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Domain\obj\Debug\net8.0\Movies.Domain.dll
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Domain\obj\Debug\net8.0\refint\Movies.Domain.dll
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Domain\obj\Debug\net8.0\Movies.Domain.pdb

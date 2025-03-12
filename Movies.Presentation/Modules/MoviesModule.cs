@@ -1,9 +1,23 @@
 ﻿using System;
+using MediatR;
+using Movies.Contracts.Requests.Movies;
+using Movies.Application.Commands.Movies.CreateMovies;
+using Movies.Application.Commands.Movies.UpdateMovies;
+using Movies.Application.Commands.Movies.DeleteMovies;
+using Movies.Application.Queries.Movies;
+using Movies.Contracts.Responses;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Routing;
+using System.Threading;
+using Movies.Application.Queries.Movies.GetMovies;
+using Movies.Application.Queries.Movies.GetMoviesById;
+
 
 namespace Movies.Presentation.Modules;
 public static class MoviesModule 
 {
-    public static void AddMoviesEndpoints(this IEndpointRouteBuilder app)
+    public static void AddMoviesEndpoints(this IEndpointRouteBuilder  app)
     {
         app.MapGet("/api/movies", async (IMediator mediater, CancellationToken ct) =>
         {
@@ -13,7 +27,7 @@ public static class MoviesModule
 
         app.MapGet("/api/movies/{id}", async (IMediator mediater,int id, CancellationToken ct) =>
         {
-            var movie = await mediater.Send(new GetMovieByIdQuery(id), ct);
+            var movie = await mediater.Send(new GetMoviesByIdQuery(id), ct);
             return Results.Ok(movie);
         }).WithTags("Movies");
 
@@ -24,16 +38,20 @@ public static class MoviesModule
             var result = await mediator.Send(command, ct);
             return Results.Ok(result);
         }).WithTags("Movies");
-        app.MapPut("/api/movies/{id}", async (IMediator mediator, int id, UpdateMovieRequest updateMoviesRequest, CancellationToken ct) =>
+        app.MapPut("/api/movies/{id}", async (IMediator mediator, int id, UpdateMovieRequest updateMovieRequest, CancellationToken ct) =>
         {
-            var command = new UpdateMovieCommand(id, updateMovieRequest.Title, updateMovieRequest.Description
-                , updateMovieRequest.Category);
+            var command = new UpdateMovieCommand(id, updateMovieRequest.Title, updateMovieRequest.Description, updateMovieRequest.Category);
             var result = await mediator.Send(command, ct);
             return Results.Ok(result);
         }).WithTags("Movies");
+
+
+        
+        
         app.MapDelete("/api/movies/{id}", async (IMediator mediator, int id, CancellationToken ct) =>
         {
             var command = new DeleteMovieCommand(id);
+            
             var result = await mediator.Send(command, ct);
             return Results.Ok(result);
         }).WithTags("Movies");

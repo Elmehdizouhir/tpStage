@@ -32,12 +32,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Contracts\\Movies.Contracts.csproj": {
-                "projectPath": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Contracts\\Movies.Contracts.csproj"
-              },
-              "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Domain\\Movies.Domain.csproj": {
-                "projectPath": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Domain\\Movies.Domain.csproj"
-              },
               "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Infrastructure\\Movies.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Infrastructure\\Movies.Infrastructure.csproj"
               }
@@ -60,6 +54,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0-preview1, )"
+            },
             "Mapster": {
               "target": "Package",
               "version": "[7.4.2-pre02, )"
@@ -287,6 +285,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Contracts\\Movies.Contracts.csproj": {
+                "projectPath": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Contracts\\Movies.Contracts.csproj"
+              },
               "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Domain\\Movies.Domain.csproj": {
                 "projectPath": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Domain\\Movies.Domain.csproj"
               }

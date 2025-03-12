@@ -2,13 +2,16 @@ C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\bin\Debug\ne
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\bin\Debug\net8.0\Movies.Infrastructure.runtimeconfig.json
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\bin\Debug\net8.0\Movies.Infrastructure.dll
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\bin\Debug\net8.0\Movies.Infrastructure.pdb
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\bin\Debug\net8.0\Movies.Contracts.dll
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\bin\Debug\net8.0\Movies.Domain.dll
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\bin\Debug\net8.0\Movies.Domain.pdb
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\bin\Debug\net8.0\Movies.Contracts.pdb
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\obj\Debug\net8.0\Movies.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\obj\Debug\net8.0\Movies.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\obj\Debug\net8.0\Movies.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\obj\Debug\net8.0\Movies.Infrastructure.AssemblyInfo.cs
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\obj\Debug\net8.0\Movies.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\obj\Debug\net8.0\Movies.Infrastructure.sourcelink.json
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\obj\Debug\net8.0\Movies.I.73F6CEB0.Up2Date
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\obj\Debug\net8.0\Movies.Infrastructure.dll
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Infrastructure\obj\Debug\net8.0\refint\Movies.Infrastructure.dll

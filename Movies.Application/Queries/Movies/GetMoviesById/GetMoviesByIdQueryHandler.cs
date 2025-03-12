@@ -1,7 +1,9 @@
 ﻿using MediatR;
 using Movies.Application.Queries.Movies.GetMoviesById; //GetMoviesByIdQuery و GetMoviesByIdResponse
-using Movies.Application.Responses;
+using Movies.Contracts.Responses; // GetMoviesResponse
 using Microsoft.EntityFrameworkCore;  
+using Mapster;
+using Movies.Infrastructure;
 
 namespace Movies.Appliction.Queries.Movies.GetMoviesById;
 public class GetMoviesByIdQueryHandler : IRequestHandler<GetMoviesByIdQuery , GetMoviesByIdResponse>
@@ -18,6 +20,6 @@ public class GetMoviesByIdQueryHandler : IRequestHandler<GetMoviesByIdQuery , Ge
         {
             throw new Exception();
         }
-        return movie.Adapt<GetMoviesByIdQueryResponse>();
+        return movie.Adapt<GetMoviesByIdResponse>();
     }
 }

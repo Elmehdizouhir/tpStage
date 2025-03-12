@@ -1,3 +1,4 @@
+using Movies.Application.Queries.Movies.GetMovies;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -5,7 +6,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
 using Mapster;
-
+using Movies.Contracts.Responses;
+using Movies.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 namespace Movies.Application.Queries.Movies.GetMovies
 {
     public class GetMoviesQueryHandler : IRequestHandler<GetMoviesQuery , GetMoviesResponse>
@@ -19,6 +22,7 @@ namespace Movies.Application.Queries.Movies.GetMovies
         {
             var movies = await _moviesDbContext.Movies.ToListAsync(cancellationToken);
             return movies.Adapt<GetMoviesResponse>();
+            
         }
     }
 }

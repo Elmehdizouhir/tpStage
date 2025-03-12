@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cxrLuHGzO4A=",
+  "dgSpecHash": "hpGT7SiDJh4=",
   "success": true,
   "projectFilePath": "C:\\Users\\MZouhir\\Desktop\\MEHDI\\Project\\Movies\\Movies.Presentation\\Movies.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MZouhir\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MZouhir\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\MZouhir\\.nuget\\packages\\fluentvalidation\\12.0.0-preview1\\fluentvalidation.12.0.0-preview1.nupkg.sha512",
+    "C:\\Users\\MZouhir\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.0.0-preview1\\fluentvalidation.dependencyinjectionextensions.12.0.0-preview1.nupkg.sha512",
     "C:\\Users\\MZouhir\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\MZouhir\\.nuget\\packages\\mapster\\7.4.2-pre02\\mapster.7.4.2-pre02.nupkg.sha512",
     "C:\\Users\\MZouhir\\.nuget\\packages\\mapster.core\\1.2.3-pre02\\mapster.core.1.2.3-pre02.nupkg.sha512",
