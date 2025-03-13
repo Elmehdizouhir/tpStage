@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
 using Movies.Infrastructure;
+using Movies.Contracts.Exceptions;
+using Movies.Domain.Entities;
 namespace Movies.Application.Commands.Movies.UpdateMovies
 {
     public class UpdateMovieCommand : IRequest<Unit>
@@ -30,7 +32,7 @@ namespace Movies.Application.Commands.Movies.UpdateMovies
 
             if (moviesToUpdate == null)
             {
-                throw new Exception("Movie not found");
+                throw new NotFoundException($"{nameof(Movie)} with id {nameof(Movie.Id)} : {request.Id} was not found in database");
             }
 
             moviesToUpdate.Title = request.Title;

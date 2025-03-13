@@ -3,6 +3,7 @@ using Movies.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Movies.Application.Commands.Movies.CreateMovies;
 using Movies.Infrastructure;
+using Movies.Contracts.Exceptions;
 namespace Movies.Application.Commands.Movies.DeleteMovies;
 public class DeleteMoviesCommandHandler : IRequestHandler<DeleteMovieCommand, Unit>
 {
@@ -16,7 +17,7 @@ public class DeleteMoviesCommandHandler : IRequestHandler<DeleteMovieCommand, Un
         var moviesToDelete = await _moviesDbContext.Movies.FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
         if (moviesToDelete == null)
         {
-            throw new Exception("Movie not found");
+            throw new NotFoundException($"{nameof(Movie)} with id {nameof(Movie.Id)} : {request.Id} was not found in database");
         }
         _moviesDbContext.Movies.Remove(moviesToDelete);
         await _moviesDbContext.SaveChangesAsync(cancellationToken);

@@ -156,3 +156,8 @@ C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\obj\Debug\net8
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\obj\Debug\net8.0\ref\Movies.Presentation.dll
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\Client\movies\package-lock.json
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\Client\movies\package.json
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\Client\movies\tsconfig.app.json
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\Client\movies\tsconfig.json
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\Client\movies\tsconfig.node.json

@@ -4,7 +4,8 @@ using Movies.Contracts.Responses; // GetMoviesResponse
 using Microsoft.EntityFrameworkCore;  
 using Mapster;
 using Movies.Infrastructure;
-
+using Movies.Contracts.Exceptions; // NotFoundException
+using Movies.Domain.Entities;
 namespace Movies.Appliction.Queries.Movies.GetMoviesById;
 public class GetMoviesByIdQueryHandler : IRequestHandler<GetMoviesByIdQuery , GetMoviesByIdResponse>
 {
@@ -18,7 +19,7 @@ public class GetMoviesByIdQueryHandler : IRequestHandler<GetMoviesByIdQuery , Ge
         var movie = await _moviesDbContext.Movies.FirstOrDefaultAsync(x => x.Id == request.Id, cancellation);
         if (movie == null)
         {
-            throw new Exception();
+            throw new NotFoundException($"{nameof(Movie)} with id {nameof(Movie.Id)} : {request.Id} was not found in database");
         }
         return movie.Adapt<GetMoviesByIdResponse>();
     }
