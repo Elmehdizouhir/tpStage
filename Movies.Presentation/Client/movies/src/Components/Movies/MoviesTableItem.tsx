@@ -7,6 +7,8 @@ interface Props {
     movie : MovieDto
 }
 export default function MovieTableItem({movie} : Props) {
+
+    console.log("movie item", movie)
     return (
         <>
         <tr className="center aligned">
@@ -17,23 +19,25 @@ export default function MovieTableItem({movie} : Props) {
             <td data-label='Category'>{movie.Category}</td>
             <td data-label='Action'>
                 <Button as={NavLink} to={`editMovie/${movie.Id}`} type="submit" color="yellow" >
-                    edit
+                    edit 
                 </Button>
                 <Button type="button" negative onClick={async () =>
                     {
                        if (movie.Id !== undefined) {
                         await ApiConnector.deleteMovie(movie.Id);
                         window.location.reload();
+                        console.log("deleteMovie");
+                       }
+                       else{
+                        console.log("no delete");
+                        
                        }
                     }
                 }>
                     delete
-
                 </Button>
             </td>
         </tr>
-        
         </>
     )
-    
 }

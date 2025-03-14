@@ -1,29 +1,33 @@
-import { useEffect, useState } from "react"
-import { MovieDto } from "../../Modules/MovieDto"
+import { useEffect, useState } from "react";
+import { MovieDto } from "../../Modules/MovieDto";
 import ApiConnector from "../../api/ApiConnector";
 import { Button, Container } from "semantic-ui-react";
 import MovieTableItem from "./MoviesTableItem";
 import { NavLink } from "react-router-dom";
 
-
-
-export default function MovieTable() {
+const MovieTable = () => {
    const [movies, setMovies] = useState<MovieDto[]>([]);
-   useEffect(() =>{
-    const fatchedData = async () =>{
+   const fetchData = async () => {
+    try {
         const fetchedMovies = await ApiConnector.getMovies();
-        console.log(fetchedMovies);
-        setMovies(fetchedMovies);
+        console.log("Fetched Movies:", fetchedMovies); // Confirm data from API
+        setMovies(fetchedMovies); // Update state    
+    } catch (error) {
+        console.error("Error fetching movies:", error);
     }
-    fatchedData();
-   }, [])
+};
 
+console.log("State Movies:", movies); // Confirm data from API  
+
+useEffect(() => {
+    fetchData();
+}, []); 
 
     return (
         <>
         <Container className="container-style">
             <table className="ui inverted table">
-                <thead style={{textAlign : 'center'}}>
+                <thead style={{ textAlign: 'center' }}>
                     <tr>
                         <th>id</th>
                         <th>Title</th>
@@ -32,23 +36,25 @@ export default function MovieTable() {
                         <th> Category</th>
                         <th>Action</th>
                     </tr>
-
                 </thead>
                 <tbody>
-                    {movies.map((movie, index) =>(
-                        <MovieTableItem key={index} movie= {movie} />
-
-                    ))}
-{/* {movies.length !== 0 && (movies.map((movie, index) =>(
-                        <MovieTableItem key={index} movie= {movie} />
-
-                    )))} */}
+                {movies && movies.length > 0 ? (
+                        movies.map((movie, index) => (
+                            <MovieTableItem key={index} movie={movie} />
+                        ))
+                    ) : (
+                        <tr>
+                            <td colSpan={6} style={{ textAlign: "center" }}>
+                                No movies available.
+                            </td>
+                        </tr>
+                    )}
                 </tbody>
             </table>
             <Button as={NavLink} to='createMovie' floated="right" type="button" content="create movie" positive />
-
         </Container>
         </>
-    )
-    
-}
+    );
+};
+
+export default MovieTable;

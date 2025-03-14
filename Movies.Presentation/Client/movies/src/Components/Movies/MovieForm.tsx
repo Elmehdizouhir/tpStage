@@ -43,6 +43,7 @@ export default function MovieForm() {
                 <Button floated="right" positive type="submit" content="Submit" />
                 <Button as={NavLink} to="/" floated="right" negative type="button" content="Cancel" />
             </Form>
+        {/* <input type="text" name="Title" value={movie.Title} onChange={handleInputChange}/> */}
         </Segment>
     );
 }

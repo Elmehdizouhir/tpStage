@@ -7,7 +7,7 @@ import API_BASE_URL  from "../../Config";
 const ApiConnector = {
     
     getMovies: async (): Promise<MovieDto[]> => {
-        try {
+        
             const response: AxiosResponse<GetMovieResponse> = 
                 await axios.get(`${API_BASE_URL}/movies`);
     
@@ -24,52 +24,24 @@ const ApiConnector = {
             }));
     
             return movies;
-        } catch (error) {
-            console.error("Error while fetching movies", error);
-            return []; // إرجاع مصفوفة فارغة عند حدوث خطأ
-        }
-    }
-    ,
+        },
     createMovie : async (movie : MovieDto) : Promise<void> => {
-        try {
-            await axios.post<number>(`${API_BASE_URL}/movies`, movie)
-        } catch (error) {
-            console.log(error);
-            throw error;
-        }
+       
+        await axios.post<number>(`${API_BASE_URL}/movies`, movie)
+            
     },
     editMovie : async (movie : MovieDto) : Promise<void> => {
-        try {
-            await axios.put<number>(`${API_BASE_URL}/movies`, movie)
-        } catch (error) {
-            console.log(error);
-            throw error;
-        }
+       
+         await axios.put<number>(`${API_BASE_URL}/movies/${movie.Id}`, movie)
     },
     deleteMovie : async (movieId : number) : Promise<void> => {
-        try {
-            await axios.delete<number>(`${API_BASE_URL}/movies/${movieId}`)
-        } catch (error) {
-            console.log(error);
-            throw error;
-        }
+
+        await axios.delete<number>(`${API_BASE_URL}/movies/${movieId}`)
     },
     getMovieById : async (movieId : string) : Promise<MovieDto  | undefined> => {
-        try {
-            const response = await axios.get<GetMovieByIdResponse>(`${API_BASE_URL}/movies/${movieId}`)
-             return  response.data.movieDto;
-            
-        } catch (error) {
-            console.log(error);
-            throw error;
-        }
-         
 
-
-
-
-
-        
+         const response = await axios.get<GetMovieByIdResponse>(`${API_BASE_URL}/movies/${movieId}`)
+         return  response.data.movieDto; 
     }
  
 }

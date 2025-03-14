@@ -161,3 +161,5 @@ C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\Client\movies\tsconfig.app.json
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\Client\movies\tsconfig.json
 C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\Client\movies\tsconfig.node.json
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\package-lock.json
+C:\Users\MZouhir\Desktop\MEHDI\Project\Movies\Movies.Presentation\bin\Debug\net8.0\package.json

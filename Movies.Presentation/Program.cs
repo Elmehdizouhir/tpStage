@@ -26,7 +26,7 @@ builder.Services.AddCors(options =>
     {
         policyBuilder.AllowAnyHeader()
                      .AllowAnyMethod()
-                     .WithOrigins("http://localhost:5175"); // Retirer l'espace supplémentaire
+                     .WithOrigins("*"); // Retirer l'espace supplémentaire
     });
 });
 
@@ -44,9 +44,10 @@ if (app.Environment.IsDevelopment())
 }
 
 // 🔹 Appliquer la politique CORS
-app.UseCors("CorsPolicy");  // Applique la politique CORS ici
+
 
 app.UseExceptionHandler(_ => { });
+app.UseCors("CorsPolicy");  // Applique la politique CORS ici
 app.UseHttpsRedirection();
 
 // 🔹 Ajout des endpoints des films

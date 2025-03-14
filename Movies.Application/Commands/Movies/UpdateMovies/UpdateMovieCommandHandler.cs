@@ -30,7 +30,7 @@ namespace Movies.Application.Commands.Movies.UpdateMovies
             var moviesToUpdate = await _moviesDbContext.Movies
                 .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
-            if (moviesToUpdate == null)
+            if (moviesToUpdate is not null)
             {
                 throw new NotFoundException($"{nameof(Movie)} with id {nameof(Movie.Id)} : {request.Id} was not found in database");
             }
